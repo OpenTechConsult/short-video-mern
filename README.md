@@ -1,6 +1,6 @@
 # Short Video Application with MERN - Front End
 
-This project is represent the front end section of a Short Video Application.
+This project represent the front end section of a Short Video Application.
 The application will show short videos like TikTok. The videos will be played 
 by clicking on it. It will be paused by clicking on it again.
 
@@ -22,12 +22,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ## Deploy Short Video Application to Firebase
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
