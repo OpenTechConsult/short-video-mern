@@ -1,9 +1,14 @@
+import react from 'react';
 import './App.css';
+import Video from './components/video.component';
 
 function App() {
   return (
     <div className="app">
-      Short Video App MERN
+      <div className="app__videos">
+        <Video />
+        <Video />
+      </div>
     </div>
   );
 }
