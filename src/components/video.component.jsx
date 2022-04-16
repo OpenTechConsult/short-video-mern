@@ -1,5 +1,6 @@
 import React, { useRef, useState} from "react";
 
+import VideoFooter from "./videofooter.component";
 
 import './video.styles.css';
 
@@ -27,6 +28,7 @@ const Video = () => {
                 className="video__player"
                 ref={videoRef}
                 onClick={handleVideoPress}></video>
+            <VideoFooter />
         </div>
     )
 };
