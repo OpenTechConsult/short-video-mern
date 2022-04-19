@@ -9,7 +9,7 @@ import ShareIcon from '@mui/icons-material/Share';
 
 import './videosidebar.styles.css';
 
-export const VideoSidebar = () => {
+export const VideoSidebar = ({ likes, shares, messages }) => {
   const [liked, setLiked] = useState(false);
   return (
     <div className="videoSidebar">
@@ -23,15 +23,15 @@ export const VideoSidebar = () => {
                       onClick={ e => setLiked(true)} />
           }
           
-          <p>{ liked ? 101 : 100}</p>
+          <p>{ liked ? likes + 1 : likes }</p>
         </div>
         <div className="videoSidebar__button">
           <MessageIcon fontSize="large" />
-          <p>345</p>
+          <p>{ messages }</p>
         </div>
         <div className="videoSidebar__button">
           <ShareIcon fontSize="large" />
-            <p>109</p>
+            <p>{ shares }</p>
         </div>
     </div>
   )
